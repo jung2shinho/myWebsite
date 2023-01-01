@@ -34,3 +34,7 @@ img:hover {
 #grad {
     float:right;
 }
+
+.paypal {
+    max-width: 10rem;
+}
