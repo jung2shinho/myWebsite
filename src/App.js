@@ -1,26 +1,22 @@
 import React from 'react';
 
+import './css/App.css'
 // Import react components below
-import { Routes, Route } from 'react-router-dom';
-import Layout from './Components/Layout';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
-import Projects from './Pages/Projects';
-import Resume from './Pages/Resume';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import Features from './Components/Features';
+
 
 // <> is the short syntax for fragments
 function App() {
   return (
-    <>
-      <Layout />
-      <Routes>
-        <Route path="/" element={<About/>} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Resume" element={<Resume />} />
-      </Routes>
-    </>
+    <div className="page-container">
+      <div className="content-wrap">
+        <Navbar />
+        <Features />
+        <Footer />
+      </div>
+    </div>
   )
 }
 export default App;

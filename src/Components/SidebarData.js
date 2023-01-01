@@ -1,17 +1,18 @@
 import React from 'react'
 import * as AiIcons from "react-icons/ai"
+import * as FaIcons from "react-icons/fa"
 
 export const SidebarData = 
    [
       {
          title: 'About',
-         path: '/About',
+         path: 'About',
          icon: <AiIcons.AiOutlineBook />,
          cName: 'nav-text'
       },
       {
          title: 'Projects',
-         path: '/Projects',
+         path: 'Projects',
          icon: <AiIcons.AiOutlineProject />,
          cName: 'nav-text'
       },
@@ -25,18 +26,26 @@ export const SidebarData =
          title: 'LinkedIn',
          path: 'https://linkedin.com/in/jungshinho',
          icon: <AiIcons.AiOutlineLinkedin />,
+         target: '_blank',
+         cName: 'nav-text'
+      },
+      {
+         title: 'ML/AI',
+         path: '/ML',
+         icon: <AiIcons.AiOutlineRobot/>,
          cName: 'nav-text'
       },
       {
          title: 'Github',
          path: 'https://github.com/jshinhoxp',
          icon: <AiIcons.AiOutlineGithub />,
+         target: '_blank',
          cName: 'nav-text'
       },
       {
-         title: 'Contact',
+         title: 'Support',
          path: '/Contact',
-         icon: <AiIcons.AiOutlineContacts />,
+         icon: <FaIcons.FaHandsHelping />,
          cName: 'nav-text'
-      }
+      },
    ]
