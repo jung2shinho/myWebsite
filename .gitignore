@@ -1,5 +1,6 @@
 
 node_modules
+package.json
 
 # Compiled class file
 *.class
