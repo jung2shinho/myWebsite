@@ -1,5 +1,22 @@
 .page-container {
+   font-family:'Courier New', Courier, monospace;
+   width:95%; /*provides buffer to edges of screen*/
+   /* border: 10px solid black; */
+   /* background-color: yellow; */
+   margin-left: auto; /*centers the container*/
+   margin-right: auto; /*centers the container*/
+   
+   min-width: 50rem;
+   
+}
 
+.content-wrapper {
+   /* border: 4px solid red; */
+   max-width: 70rem;
+   display:flex; /*allows stacking of navbar,page,footer components*/
+   flex-direction: column; /*provides vertical direction for flex*/
+   align-items: stretch; /*extnes boxes to edges of content-wrapper*/
+   margin-left: auto; /*centers the container*/
+   margin-right: auto; /*centers the container*/
 }
-.content-wrap {
-}
+

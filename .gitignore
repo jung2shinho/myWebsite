@@ -2,6 +2,7 @@
 node_modules
 package.json
 package-lock.json
+api-key
 
 # Compiled class file
 *.class

@@ -5,38 +5,37 @@ import * as AiIcons from "react-icons/ai"
 export default function Footer() {
 	return (
 		<div className="footer">
-			<div className="container container1">
-					<div className="row1 col1">
-						<ul> 
-							<li><h4>Contact Info</h4></li>
-							<li>Email</li>
-							<li>Phone</li>
-							<li>Messenger</li>
-						</ul>
-					</div>
-					<div className="row1 col2">
-						<ul> 
-							<li> <h4>© 2023 Sean Jung </h4> </li>
-							<li> Email: jung2shinho@gmail.com </li>
-						</ul>
-					</div>
-					<div className="row1 col3">
-						<ul> 
-							<li> <h4>Support </h4> </li>
-							<li> <AiIcons.AiOutlinePayCircle /> </li>
-						</ul>
-					</div>
-			</div>
-			<div className="container container2">
-				<div className="icons"> 
-					<AiIcons.AiOutlineBook/>
-					<AiIcons.AiOutlineFacebook />
-					<AiIcons.AiOutlineInstagram />
-					<AiIcons.AiOutlineTwitter />
-					<AiIcons.AiOutlineContacts />
+			<div className="container1">
+				<div className="contact"> 
+					<ul className="contact-icons">
+						<h2> CONTACT </h2>
+						<li><AiIcons.AiOutlineMail />
+							jung2shinho@gmail.com</li>
+						<li><AiIcons.AiOutlineFacebook />
+							<a href="https://www.facebook.com/jshinhoxp">
+							Facebook </a> </li>
+						<li><AiIcons.AiOutlineInstagram />
+							<a href="https://www.instagram.com/jshinhoxp">
+							Instagram </a> </li>
+						<li><AiIcons.AiOutlineTwitter />
+							<a href="https://www.twitter.com/jshinhoxp">
+							Twitter </a> </li>
+						<li><AiIcons.AiOutlineLinkedin />
+							<a href="https://linkedin.com/in/jungshinho">
+							LinkedIn </a> </li> 
+					</ul>
 				</div>
+				<div className="subscribe">
+					<p>Sean Jung is an mechanical engineer and computer enthusiast. He brings his best in all his endeavors! Machine learning production.</p>
+					<h3> Subscribe to his latest email Newsletter! </h3>
+					<h3> Email Address </h3>
+					<input type="text" /> <br />
+					<button type="button">Subscribe</button>
+				</div>
+			</div>
+			<div className="container2"> 
 				<div className="rights">
-				   | © 2023 Sean Jung LLC | All Rights Reserved | Privacy |
+					| © 2023 Sean Jung LLC | All Rights Reserved | Privacy | Terms & Conditions |
 				</div>
 			</div>
 		</div>

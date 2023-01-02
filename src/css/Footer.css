@@ -1,51 +1,63 @@
 .footer {
-  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
   font-weight: 700;
   color: black;
-  
-  background-color: white;
-
-  border: 1px solid black;
-  padding: 0 1rem;
-  margin-left: auto;
-  margin-right: auto;
-
-  max-width: 60rem;
-  min-width: 50rem;
+ /* background-color: grey; */
+  border-top: 1px solid black;
+  justify-content: center;
  }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  min-width: 50rem;
-  border: 1px solid black;
-}
+ h1,h2,h3,h4,h5,h6 {
+  margin:0px;
+ }
 
 .container1 {
+  display:flex;
   justify-content: space-around;
+  /* background-color: red; */
+  min-height: 15rem;
 }
 
-.container2 {
-  justify-content: space-around;
+.contact {
+  /* border: 2px solid black; */
+  min-width: 20rem;
 }
 
-
-.row1 {
-  justify-content:center;
-}
-
-ul {
+.contact ul{
   list-style-type: none;
 }
 
-ul li {
-  line-height: 0;
-  margin: 1rem;
+.contact ul a{
+  text-decoration: none;
 }
 
-h4 {
-  font-size: 2rem;
-  line-height: 0;
-  margin: 1rem;
+.subscribe {
+  /* border: 2px solid black; */
+  width: 30rem;
+}
+
+.subscribe button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.subscribe button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.container2 {
+  /* background-color: blue; */
 }
