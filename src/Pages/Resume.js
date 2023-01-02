@@ -11,14 +11,14 @@ export default function Resume() {
       </p>
       
       <h2>EDUCATION</h2>
-      <p>United States Naval Academy – Bachelor of Science (BS) w/ Merit ……………………………………………………… 2011 – 2015 <br />
+      <p>United States Naval Academy – Bachelor of Science (BS) w/ Merit (2011 – 2015) <br />
       Naval Architecture and Marine Engineering w/ Minor in Russian <br />
-      Everett Community College …………………………………………………………………………………………………………………………… 2021<br />
+      Everett Community College (2021) <br />
       </p>
       <p>Prerequisites – CS141 & CS143 – Object-oriented Programming <br />
       </p>
       <h2> EXPERIENCE </h2>
-      <p> <h3> FACILITIES ENGINEERING & ACQUISITION DIVISON DIRECTOR ……………………………… AUG 2022 – PRESENT</h3> <br />
+      <p> <h3> FACILITIES ENGINEERING & ACQUISITION DIVISON DIRECTOR - AUG 2022 – PRESENT</h3>
       US Navy | Naval Support Facility Deveselu | Deveselu, Olt, Romania </p>
       <ul>
         <li>Resolved technical issues concerning power distribution, HVAC and heating, optic fiber communications, and other critical infrastructure repairs within the $1.2B Aegis Ashore Missile Defense System, directly supporting NATO’s anti-ballistic missile mission during the 2022 Russo-Ukrainian War.</li>

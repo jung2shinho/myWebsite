@@ -1,8 +1,9 @@
-/*
-export default function Redirect(props) {
-   return(
-      window.location.replace({props.path})
-   )
+import React from 'react'
+
+const Redirect = () => {
+  return (
+    <div>Redirect</div>
+  )
 }
 
-*/
+export default Redirect
