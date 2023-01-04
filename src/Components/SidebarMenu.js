@@ -8,7 +8,7 @@ function SidebarMenu(props) {
    if (props.status === true ) {
       return (
          <div className="mobile-menu">
-            <h1> MENU <RxIcons.RxExit onClick={props.onClick} /> </h1>
+            <h1> MENU <RxIcons.RxExit onClick={props.onClick} className="exit"/> </h1>
             { MenuData.map( (item, index) => {
                return (
                   <li key={index} className={item.cName}>
