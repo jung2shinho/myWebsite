@@ -1,10 +1,11 @@
-
 .mobile-menu {
-   position: fixed;
+   position:absolute;
    top: 0;
    right: 0;
+   width: 10rem;
    min-height: 100vh;
-   display: block;
-   z-index: 98;
-   background-color: red;
+   background-color: white;
+   padding: 1rem;
+   transition-duration: 500ms;
+   transition-property: ;
 }
