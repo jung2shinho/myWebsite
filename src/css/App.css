@@ -2,7 +2,7 @@
    font-family:'Courier New', Courier, monospace;
    width:95%; /*provides buffer to edges of screen*/
    /* border: 10px solid black; */
-   /* background-color: yellow; */
+   background-color: yellow;
    margin-left: auto; /*centers the container*/
    margin-right: auto; /*centers the container*/
    
