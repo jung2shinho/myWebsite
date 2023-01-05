@@ -4,6 +4,7 @@
  /* background-color: grey; */
   border-top: 1px solid black;
   justify-content: center;
+  
  }
 
  h1,h2,h3,h4,h5,h6 {
@@ -18,21 +19,25 @@
 }
 
 .contact {
-  /* border: 2px solid black; */
-  min-width: 20rem;
+  border: 2px solid rgb(255, 255, 255);
+  min-width: 35vw;
+  padding: 1rem;
 }
 
-.contact ul{
+.contact ul h2{
   list-style-type: none;
+  text-align: center;
+  text-indent: none;
 }
 
-.contact ul a{
+.contact ul h2 a{
   text-decoration: none;
 }
 
 .subscribe {
-  /* border: 2px solid black; */
-  width: 30rem;
+  border: 2px solid black;
+  /* width: 30rem; */
+  padding: 1rem;
 }
 
 .subscribe button {
@@ -59,5 +64,17 @@
 }
 
 .container2 {
-  /* background-color: blue; */
+  background-color: blue;
+}
+
+@media (max-width: 500px) {
+  .container1 {
+    flex-direction: column;
+    min-width: 340px;
+  }
+  .contact {
+    align-self: center;
+    text-align: center;
+  }
+  
 }
