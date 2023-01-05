@@ -1,6 +1,6 @@
 .pages {
-    background-color: white;
-    /* border: 1px solid black; */
+    background-color: pink;
+    border: 1px solid black;
     text-align: left;
     display:block;
     padding: 1rem;
@@ -28,5 +28,5 @@ img:hover {
 }
 
 .paypal {
-    max-width: 10rem;
+    /* max-width: 10rem; */
 }
