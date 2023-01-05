@@ -36,18 +36,31 @@
    flex-shrink:0;
    flex-grow:.8;
    text-decoration: none;
+   min-width: 10rem;
 }
 
-.burger:hover {
-   opacity: 50%;
+.burger {
+   display: none;
 }
+
 
 @media (max-width: 700px) {
    .navbar {
-      flex-direction: column;
    }
    .site-title {
-      font-size:3rem;
+      font-size: 3rem;
+   }
+   
+  .nav-text {
+   display: none;
+   }
+   .burger {
+      display: block;
+      scale: 2;
+   }
+
+   .burger:hover {   
+      opacity: 50%;
    }
 
 }
