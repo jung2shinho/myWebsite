@@ -8,6 +8,7 @@
 
    border-bottom: 1px solid black;
    padding: 1rem;
+   border: 1px solid black;
 }
 
 .navbar a{
@@ -54,6 +55,7 @@
   .nav-text {
    display: none;
    }
+   
    .burger {
       display: block;
       scale: 2;
