@@ -7,14 +7,15 @@
 }
 
 .pages p {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 img {
     padding: 1rem;
     height: 30vw;
     min-width: none;
-    width: auto; 
+    max-width: 600px;
+    max-height: 600px;
 }
 
 img:hover {
@@ -37,9 +38,9 @@ img:hover {
     /* max-width: 10rem; */
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     img {
-        min-width: 300px;
-        min-height: 300px;
+        width: 80vw;
+        height: auto;
     };
 }

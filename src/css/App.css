@@ -8,9 +8,9 @@ html {
    background-color: yellow;
    /* margin-left: auto; 
    margin-right: auto; */
-   width:100vw;
+   width:95vw;
    height:100%;
-   max-width: 95vw;
+   max-width: 100vw;
    max-height: 100%;
 }
 
@@ -19,7 +19,8 @@ html {
    display: flex; /*allows stacking of navbar,page,footer components*/
    flex-direction: column; /*provides vertical direction for flex*/
    align-items: stretch; /*extnes boxes to edges of content-wrapper*/
-   /* margin-left: auto;  */
-   /* margin-right: auto;  */
+
+   margin-left: auto; 
+   margin-right: auto; 
 }
 
