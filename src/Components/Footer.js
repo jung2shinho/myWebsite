@@ -7,8 +7,8 @@ export default function Footer() {
 		<div className="footer">
 			<div className="container1">
 				<div className="contact"> 
+				<h2> CONTACT </h2>
 					<ul className="contact-icons">
-						<h2> CONTACT </h2>
 						<li><AiIcons.AiOutlineMail />
 							jung2shinho@gmail.com</li>
 						<li><AiIcons.AiOutlineFacebook />
