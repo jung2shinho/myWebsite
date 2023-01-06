@@ -21,15 +21,17 @@
   border: 2px solid rgb(255, 255, 255);
   min-width: 35vw;
   padding: 1rem;
-}
-
-.contact ul h2{
-  list-style-type: none;
+  max-width: 30rem;
   text-align: center;
-  text-indent: none;
 }
 
-.contact ul h2 a{
+.contact-icons {
+  list-style-type: none;
+  text-indent: none;
+  padding-left: 0;
+}
+
+.contact a{
   text-decoration: none;
 }
 
@@ -37,6 +39,7 @@
   border: 2px solid black;
   /* width: 30rem; */
   padding: 1rem;
+  max-width: 30rem;
 }
 
 .subscribe button {
@@ -71,6 +74,7 @@
   .container1 {
     flex-direction: column;
     min-width: 340px;
+    align-items: center;
   }
   .contact {
     align-self: center;
