@@ -19,7 +19,7 @@
 
 .contact {
   border: 2px solid rgb(255, 255, 255);
-  min-width: 35vw;
+  min-width: 50vw;
   padding: 1rem;
   max-width: 30rem;
   text-align: center;
@@ -73,7 +73,6 @@
 @media (max-width: 500px) {
   .container1 {
     flex-direction: column;
-    min-width: 340px;
     align-items: center;
   }
   .contact {
@@ -83,5 +82,7 @@
   .contact ul {
     text-decoration: none;
   }
-    
+  .subscribe {
+    text-align: center;
+  }    
 }
