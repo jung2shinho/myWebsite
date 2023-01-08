@@ -24,13 +24,13 @@ function Navbar() {
          
          { MenuData.map( (item, index) => {
             return (
-            <li key={index} className="nav-text">
-               <Link to={item.path} target={item.target}>
+               <li key={index} className="nav-text">
+                  <a href={item.path}>
                      {item.icon}
                      <span> {item.title} </span>
-               </Link>
-            </li>
-            )})
+                  </a>
+               </li>)
+            })
          }
          <RxIcons.RxHamburgerMenu onClick={menuClick} className="burger" />
          <SidebarMenu status={status} onClick={menuClick} />
