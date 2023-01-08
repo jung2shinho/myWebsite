@@ -1,17 +1,20 @@
 .mobile-menu {
-   position:fixed;
+   position: fixed;
    top: 0;
    right: 0;
    min-height: 100vh;
    background-color: white;
    padding: 1rem;
-   transition-duration: 500ms;
-   transition-property: ;
    display: block;
+   border-left: 1px solid black;
 }
 
-.mobile-menu.click {
-   /* width: 10rem; */
+.mobile-menu li {
+   list-style-type: none;
+}
+
+.mobile-menu-text a{
+   text-decoration: none;
 }
 
 .exit:hover {
@@ -19,5 +22,8 @@
 }
 
 @media (max-width:700px) {
+   .mobile-menu {
+      transition-duration: 500ms;
+   }
    
 }
