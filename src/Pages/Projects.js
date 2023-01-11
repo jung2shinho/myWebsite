@@ -14,6 +14,7 @@ export default function Projects() {
 					<p> Auto Trading Bot that uses a machine learning model that utilizes basic, yet complex algorithms to predict future stock market movements. </p>
 				<li> <h3> Robinhood Tax Estimator App </h3> </li>
 					<p> To calculate current and projected dividend and stock earnings to assist in estimating tax liability </p>
+				<li> TO DO LIST </li>
 			</ul>
 		</div>
   );
