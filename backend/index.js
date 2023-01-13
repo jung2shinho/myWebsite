@@ -15,5 +15,4 @@ app.get('/', (req, res) => { // sending a get request to our routes
    res.send('Hello from Homepage.');
 } ) 
 
-
 app.listen(PORT, () => console.log(`Server Running on port: http://localhost:${PORT}`))
