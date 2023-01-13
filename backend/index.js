@@ -1,18 +1,35 @@
-import express from 'express';
-import bodyParser from 'body-parser';
+// “index.js”: The main entry point for the Express server and configuration initialization
 
-import usersRoutes from './routes/users.js'; 
+const express = require('express');
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+const usersRoutes = require ('./routes/users.js');
 
+// init middleware express server
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => 
+   console.log(`Server Running on port: http://localhost:${PORT}`)
+)
 
 app.use(bodyParser.json()); // indicates that use of json objects
 
-app.use('/users', usersRoutes);
 
+// Connect to DB
+mongoose.connect(
+   process.env.ATLAS_URI,
+   {useNewUrlParser: true }, 
+   () => console.log('Connected to DB')
+);
+
+// Route for homepage
 app.get('/', (req, res) => { // sending a get request to our routes
    console.log('[TEST]!');
    res.send('Hello from Homepage.');
 } ) 
 
-app.listen(PORT, () => console.log(`Server Running on port: http://localhost:${PORT}`))
+// Routes for /users
+app.use('/users', usersRoutes);
+
+
