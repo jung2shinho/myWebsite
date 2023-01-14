@@ -1,10 +1,18 @@
+// CommonJS syntax
 const { v4: uuidv4 } = require('uuid');
+const { MongoClient } = require('mongodb');
 
-let users = []
-
-const getUser = (req, res) => {
-   console.log(users);
-   res.send(users);
+const getUser = async (req, res) => {
+   const client = new MongoClient(process.env.ATLAS_URI);
+   try {
+      await client.connect()
+      const database = client.db('app-data')
+      const users = database.collection('users')
+      const returnedUsers = await users.find().toArray()
+      res.send(returnedUsers)
+   } finally {
+      await client.close()
+   }
 }
 
 const createUser = (req, res) => {
