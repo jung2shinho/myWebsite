@@ -29,7 +29,7 @@ export default function Footer() {
 					<p>Sean Jung is an mechanical engineer and computer enthusiast. He brings his best in all his endeavors! Machine learning production.</p>
 					<h3> Subscribe to his latest email Newsletter! </h3>
 					<h3> Email Address </h3>
-					<input type="text" className="input"/> <br />
+					<input type="text" className="email-list"/> <br />
 					<button type="button">Subscribe</button>
 				</div>
 			</div>
