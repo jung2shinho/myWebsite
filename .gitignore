@@ -3,7 +3,9 @@ node_modules
 package.json
 package-lock.json
 api-key
+.env
 config.env
+images
 
 # Compiled class file
 *.class
