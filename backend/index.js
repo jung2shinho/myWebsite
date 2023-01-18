@@ -21,6 +21,8 @@ app.get('/', (req, res) => {
 
 // Routes for /users
 app.use('/users', usersRoutes);
+
+// Routes for /
 app.use('/ ', emailList);
 
 
