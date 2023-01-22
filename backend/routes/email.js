@@ -2,7 +2,6 @@
 const express = require('express');
 const { getIndex } = require("../controllers/index.js")
 
-
 const router = express.Router();
 
 // all routes in here are starting with /users
