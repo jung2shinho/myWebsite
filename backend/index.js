@@ -2,7 +2,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const usersRoutes = require ('./routes/users.js');
-const emailList = require('./routes/email.js')
 const dotenv = require('dotenv').config();
 
 // init middleware express server
@@ -21,6 +20,6 @@ app.get('/', (req, res) => {
 
 // Routes for /users
 app.use('/users', usersRoutes);
-app.use('/ ', emailList);
+
 
 
