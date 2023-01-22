@@ -5,10 +5,13 @@ const { MongoClient } = require('mongodb');
 const getUser = async (req, res) => {
    const client = new MongoClient(process.env.ATLAS_URI);
    try {
+      console.log('Connecting to db...')
       await client.connect()
+      console.log('Connection Made!')
       const database = client.db('app-data')
       const users = database.collection('users')
       const returnedUsers = await users.find().toArray()
+      console.log('Found!')
       res.send(returnedUsers)
    } finally {
       await client.close()
