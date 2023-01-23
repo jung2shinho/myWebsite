@@ -2,21 +2,27 @@ import React from "react";
 import "../css/Footer.css"
 import * as AiIcons from "react-icons/ai"
 import axios from "axios";
+import { useState } from "react";
 
-const subscribeEmail = () => {
-	axios.post('http://localhost:5000/users',
-		{
-			email: {email-list}
-		}
-	).then(function (response) {
-	  console.log(response);
-	})
-	.catch(function (error) {
-	  console.log(error);
-	})
-}
+
 
 export default function Footer() {
+	const [input,setInput] = useState("")
+	const subscribeEmail = () => {
+		axios.post('http://localhost:5000/users',
+			{input}
+		).then(function (response) {
+		  console.log(response);
+		})
+		.catch(function (error) {
+		  console.log(error);
+		})
+	}
+
+	const handleChange = e => {
+		setInput(e.target.value)
+	 }
+
 	return (
 		<div className="footer">
 			<div className="container1">
@@ -43,7 +49,9 @@ export default function Footer() {
 					<p>Sean Jung is an mechanical engineer and computer enthusiast. He brings his best in all his endeavors! Machine learning production.</p>
 					<h3> Subscribe to his latest email Newsletter! </h3>
 					<h3> Email Address </h3>
-					<input type="text" className="email-list"/> <br />
+					<input type="text" className="email-list" 
+						value={input} onChange={handleChange} /> 
+					<br />
 					<button type="button" onClick={subscribeEmail}>
 						Subscribe
 					</button>
