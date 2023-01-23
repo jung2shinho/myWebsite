@@ -18,13 +18,20 @@ const getUser = async (req, res) => {
    }
 }
 
-const createUser = (req, res) => {
-   const user = req.body;
-   const userWithId = {... user, id: uuidv4() }
-
-   users.push(userWithId);
-   
-   res.send(`User with the username ${user.firstName} added to database`)
+const createUser = async (req, res) => {
+   const client = new MongoClient(process.env.ATLAS_URI);
+   try {
+      console.log('Connecting to db...')
+      await client.connect()
+      console.log('Connection Made!')
+      const database = client.db('app-data')
+      const users = database.collection('users')
+      console.log('Found!')
+      await users.insertOne(req.body);
+      res.send(`Added to database`)
+   } finally {
+      await client.close()
+   }
 }
 
 const getUserid = (req, res) => {
