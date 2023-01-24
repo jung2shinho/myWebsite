@@ -7,10 +7,11 @@ import { useState } from "react";
 
 
 export default function Footer() {
-	const [input,setInput] = useState("")
+	const [email, setEmail] = useState("")
+
 	const subscribeEmail = () => {
 		axios.post('http://localhost:5000/users',
-			{input}
+			{email}
 		).then(function (response) {
 		  console.log(response);
 		})
@@ -20,7 +21,7 @@ export default function Footer() {
 	}
 
 	const handleChange = e => {
-		setInput(e.target.value)
+		setEmail(e.target.value)
 	 }
 
 	return (
@@ -50,7 +51,7 @@ export default function Footer() {
 					<h3> Subscribe to his latest email Newsletter! </h3>
 					<h3> Email Address </h3>
 					<input type="text" className="email-list" 
-						value={input} onChange={handleChange} /> 
+						value={email} onChange={handleChange} /> 
 					<br />
 					<button type="button" onClick={subscribeEmail}>
 						Subscribe
