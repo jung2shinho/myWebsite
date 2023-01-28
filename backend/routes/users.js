@@ -1,6 +1,7 @@
 // “routes/user.js”: Exposes the REST API endpoints and performs their business logic against the Atlas cluster.
 const express = require('express');
-const { getUser, createUser, getUserid, deleteUser, updateUser } = require("../controllers/users.js")
+const { getUser, createUser, getUserid,
+   deleteUser, updateUser } = require("../controllers/users.js")
 
 const router = express.Router();
 

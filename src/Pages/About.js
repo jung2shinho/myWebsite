@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Pages.css";
 
-export default function About() {
+function About() {
     
     return (
       //all html must be within a single html component aka <div> for this one.
@@ -64,3 +64,5 @@ export default function About() {
       </div>
     );
 };
+
+export default About;

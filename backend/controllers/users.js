@@ -36,7 +36,6 @@ const createUser = async (req, res) => {
 
 const getUserid = (req, res) => {
    const {id} = req.params;
-
    const foundUser = users.find((user) => user.id === id);
    res.send(foundUser);
 }
@@ -44,7 +43,7 @@ const getUserid = (req, res) => {
 const deleteUser = (req, res) => {
    const {id} = req.params;
    users = users.filter((user) => user.id !== id);
-   res.send(`User with the id ${id} deleted from the database`);
+   res.send(`User with the id: ${id} deleted from the database`);
 }
 
 const updateUser = (req, res) => {
