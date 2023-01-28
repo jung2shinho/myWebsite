@@ -2,6 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const usersRoutes = require ('./routes/users.js');
+const blogRoutes = require ('./routes/blog.js');
 const dotenv = require('dotenv').config();
 const cors = require('cors')
 
@@ -28,6 +29,7 @@ app.get('/', (req, res) => {
 
 // Routes for /users
 app.use('/users', usersRoutes);
+app.use('/blog', blogRoutes);
 
 
 
