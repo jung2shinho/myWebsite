@@ -2,27 +2,31 @@ import React from "react";
 import "../css/Footer.css"
 import * as AiIcons from "react-icons/ai"
 import axios from "axios";
+import Popup from "./Popup";
 import { useState } from "react";
 
-
-
 export default function Footer() {
-	const [email, setEmail] = useState("")
 
+	// React Hooks for subscribing email and popup
+	const [email, setEmail] = useState("")
+	const [isOpen, setIsOpen] = useState(false)
+
+	// Reflects input into the hook state
+	const handleChange = e => {
+		setEmail(e.target.value)
+	}
+
+	// onClick posts data onto database 
 	const subscribeEmail = () => {
-		axios.post('http://localhost:5000/users',
-			{email}
-		).then(function (response) {
+		axios.post('http://localhost:5000/users',{email})
+		.then(function (response) {
 		  console.log(response);
 		})
 		.catch(function (error) {
 		  console.log(error);
 		})
+		setIsOpen(!isOpen);
 	}
-
-	const handleChange = e => {
-		setEmail(e.target.value)
-	 }
 
 	return (
 		<div className="footer">
@@ -50,12 +54,17 @@ export default function Footer() {
 					<p>Sean Jung is an mechanical engineer and computer enthusiast. He brings his best in all his endeavors! Machine learning production.</p>
 					<h3> Subscribe to his latest email Newsletter! </h3>
 					<h3> Email Address </h3>
+					
 					<input type="text" className="email-list" 
 						value={email} onChange={handleChange} /> 
+					
 					<br />
+					
 					<button type="button" onClick={subscribeEmail}>
 						Subscribe
 					</button>
+
+					<Popup content={<div> "completed" </div>} />
 				</div>
 			</div>
 			<div className="container2"> 
