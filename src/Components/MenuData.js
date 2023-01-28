@@ -20,21 +20,26 @@ export const MenuData =
          icon: <AiIcons.AiOutlineProfile />,
       },
       {
+         title: 'ML/AI',
+         path: '/ML',
+         icon: <AiIcons.AiOutlineRobot/>,
+      },
+      {
          title: 'LinkedIn',
          path: 'https://linkedin.com/in/jungshinho',
          icon: <AiIcons.AiOutlineLinkedin />,
          target: '_blank',
       },
       {
-         title: 'ML/AI',
-         path: '/ML',
-         icon: <AiIcons.AiOutlineRobot/>,
-      },
-      {
          title: 'Github',
          path: 'https://github.com/jshinhoxp',
          icon: <AiIcons.AiOutlineGithub />,
          target: '_blank',
+      },
+      {
+         title: 'Blog',
+         path: '/Blog',
+         icon: <FaIcons.FaBlogger />,
       },
       {
          title: 'Support',
