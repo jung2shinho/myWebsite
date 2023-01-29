@@ -1,0 +1,16 @@
+.single-post {
+   width:auto;
+   height: 10rem;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: blue;
+   padding: 1rem;
+}
+
+.single-post .header {
+   background-color: red;
+}
+
+.comments .input {
+   width: 10rem;
+}
