@@ -1,5 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 import "../css/SinglePost.css"
+
+
+// when an event (e) happens, setstate() function executes
+const handleCommentValue = (e) => {
+   this.setState({
+      commentValue: e.target.value,
+   });
+}
+
 
 function SinglePost () {
    return(

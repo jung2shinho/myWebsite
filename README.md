@@ -6,7 +6,6 @@ react-router-dom;
 react-icons;
 react-paypal-js;
 
-
 # React Notes
 - React Hooks need be within a function component.
 - React Hooks need to be run in order. Cannot be in if-else statements.

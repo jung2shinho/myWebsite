@@ -8,6 +8,7 @@ import Resume from '../Pages/Resume';
 import Blog from '../Pages/Blog';
 
 import Redirect from '../Components/Redirect';
+import ML from '../Pages/ML';
 
 function Features () { 
   return (
@@ -18,6 +19,7 @@ function Features () {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Resume" element={<Resume />} />
+          <Route path="/ML" element={<ML />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/external" element={<Redirect />} />
       </Routes>
