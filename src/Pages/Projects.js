@@ -6,15 +6,16 @@ export default function Projects() {
 		<div className="pages">
 			<h1> Coding Projects </h1>
 			<ul>
-				<li> <h3> Personal Website </h3> </li>
-					<p> Consolidates work of a true professional in one single-page application. Made with React Framework. Hosted via Google Domain. </p>
-				<li> <h3> Real Estate Estimator App </h3> </li>
-					<p> Uses machine learning to estimate the property value and potential renovation costs through visual and public data. </p>
-				<li> <h3> Stock Market Estimator App </h3></li>
-					<p> Auto Trading Bot that uses a machine learning model that utilizes basic, yet complex algorithms to predict future stock market movements. </p>
-				<li> <h3> Robinhood Tax Estimator App </h3> </li>
-					<p> To calculate current and projected dividend and stock earnings to assist in estimating tax liability </p>
-				<li> TO DO LIST </li>
+				<li> <h2> Real Estate Estimator App </h2> </li>
+					<p> Estimates the property value and potential renovation costs through visual input (photos) of property, general market construction costs, and various  public data. </p>
+				<li> <h2> Stock Market Estimator App </h2></li>
+					<p> An automated Trading Bot that uses a linear regression model that utilizes basic algorithms to predict future stock market movements and trends. </p>
+				<li> <h2> Robinhood Tax Estimator App </h2> </li>
+					<p> Calculates current and projected dividends as well as stock earnings in assisting user on tracking income for accurately estimating tax liability. </p>
+				<li> <h2> Number Recognition </h2> </li>
+					<p> Utilizes multi-layered neural network to recognize numbers upon freehand input. </p>
+				<li> <h2>This Personal Website </h2> </li>
+					<p> Uses HTML / CSS / Javascript to consolidates work of a true professional in one single-page application. Made with React Framework. Hosted via Google Domain. </p>
 			</ul>
 		</div>
   );
