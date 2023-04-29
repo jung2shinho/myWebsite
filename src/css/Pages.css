@@ -15,6 +15,14 @@
     font-size: 18px;
 }
 
+.pages ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pages 
+
 img {
     padding: 1rem;
     height: 30vw;
