@@ -5,13 +5,13 @@ import * as FaIcons from "react-icons/fa"
 export const MenuData = 
    [
       {
-         title: 'About',
-         path: 'About',
-         icon: <AiIcons.AiOutlineBook />,
+         title: 'Home',
+         path: '/',
+         icon: <AiIcons.AiFillHome />,
       },
       {
          title: 'Projects',
-         path: 'Projects',
+         path: '/Projects',
          icon: <AiIcons.AiOutlineProject />,
       },
       {
