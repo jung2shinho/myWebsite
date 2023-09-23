@@ -9,8 +9,8 @@ function About() {
         <div className ="box1">
           <div className="intro">
             <h1> ABOUT </h1>
-            <p>Hi, my name is Sean Jung. I'm an active-duty US Naval Officer in the Civil Engineer Corps. I am currently stationed overseas in Romania as the Facilities Engineering and Acquisitions Division (FEAD) Director. My current work mainly entails the repair and maintenance of our Aegis Ashore Missile Defense System, sustaining its utilities infrastructure as well as upgrading its control and communication systems. </p> 
-            <p>I graduated from the United States Naval Academy in Annapolis, MD (Class of 2015), where I studied Naval Architecture & Marine Engineering and minored in Russian. I am currently pursuing a M.S in Electrical Engineering (Data Option) at the University of Washington-Seattle to further expand my engineering knowledge.</p>
+            <p> Hi there! My name is Shinho Jung. I am currently a graduate student at the University of Washington in Seattle, WA, majoring in Electrical Engineering and Data Science because I love all things TECH! From a young age, I have always been so fastinated by the complexity and ingenuity of our daily machines, and the world's ability to create and implement innovative solutions for society's problems. For me, I have always made it my mission to enhance the ever-evolving landscape of technology, thanks to my incessant curosity and drive for problem-solving.
+            </p>
           </div>
           <div className="images">
             <a href="https://www.instagram.com/jshinhoxp/?hl=en"><img src={"/images/profPortrait.png"} alt="pt" id="portrait" />

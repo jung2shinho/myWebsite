@@ -63,8 +63,6 @@ export default function Footer() {
 					<button type="button" onClick={subscribeEmail}>
 						Subscribe
 					</button>
-
-					<Popup content={<div> "completed" </div>} />
 				</div>
 			</div>
 			<div className="container2"> 
