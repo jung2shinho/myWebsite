@@ -19,7 +19,7 @@ function Navbar() {
    return (
       <div className="navbar">
          <Link to ="/" className="site-title">
-               SEAN JUNG
+               SHINHO JUNG
          </Link>
          
          { MenuData.map( (item, index) => {

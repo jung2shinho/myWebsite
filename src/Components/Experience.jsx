@@ -1,19 +1,14 @@
-import { ContactShadows, Environment, OrbitControls, Sky } from "@react-three/drei";
+import { ContactShadows, OrbitControls } from "@react-three/drei";
 import { Avatar } from "../Components/Avatar";
-import {useControls} from "leva";
+import { Office } from "../Components/Office";
 
 export const Experience = () => {
-   const {animation} = useControls({
-      animation: {
-         value: "Typing",
-         options:["Typing","Falling", "Standing"]
-      }
-   })
-
+   const animation = "Typing"
   return (
     <>
       <OrbitControls />
-      <Sky />
+
+      
       <ambientLight intensity={1} />
       <group position-y={-1}>
          <ContactShadows
@@ -25,10 +20,10 @@ export const Experience = () => {
             color="#000000"
             />
          <Avatar animation={animation} />
+         <Office position-x={-1.9} position-z={-.8}/>
          { animation === "Typing" && (
             <mesh scale={[0.8,0.5,0.8]} position-y={0.25}>
-               <boxGeometry />
-               <meshStandardMaterial color="white" />
+               
             </mesh>
          )}
 
@@ -37,6 +32,7 @@ export const Experience = () => {
             <planeGeometry />
             <meshStandardMaterial color="white" />
          </mesh>
+
       </group>
     </>
   );

@@ -9,14 +9,13 @@ import { useFrame } from '@react-three/fiber'
 import * as THREE from 'three';
 import { useFBX, useGLTF, useAnimations } from '@react-three/drei'
 
-
 export function Avatar(props) {
   const {animation} = props;
 
-  const {headFollow, cursorFollow} = useControls({ 
-    headFollow: false,
-    cursorFollow: false,
-  });
+  // const {headFollow, cursorFollow} = useControls({ 
+  //   headFollow: false,
+  //   cursorFollow: false,
+  // });
 
   const group = useRef();
   const { nodes, materials } = useGLTF('models/Avatar.glb');
@@ -41,13 +40,13 @@ export function Avatar(props) {
 
   // Keeps a bone in same state with camera
   useFrame((state) => {
-    if(headFollow) { // if clicked true 
-    group.current.getObjectByName("Head").lookAt(state.camera.position);
-    }
-    if(cursorFollow) {
-      const target = new THREE.Vector3(state.mouse.x, state.mouse.y, 1);
-      group.current.getObjectByName("Spine").lookAt(target);
-    }
+    // if(headFollow) { // if clicked true 
+    // group.current.getObjectByName("Head").lookAt(state.camera.position);
+    // }
+    // if(cursorFollow) {
+    //   const target = new THREE.Vector3(state.mouse.x, state.mouse.y, 1);
+    //   group.current.getObjectByName("Neck").lookAt(target);
+    // }
   });
 
   // 

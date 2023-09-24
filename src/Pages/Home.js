@@ -6,11 +6,12 @@ import { Experience } from "../Components/Experience";
 export default function Home () {
     return (
         <div className="pages">
-          <h1 className="h1">This is the Home page</h1>
-          <Canvas shadows camera={{ position: [0, 2, 5], fov: 30 }}>
-            <color attach="background" args={["#ececec"]} />
-            <Experience />
-          </ Canvas>
+          <div className="threeD">
+            <Canvas shadows camera={{ position: [1, 1, 5], fov: 15 }}>
+              <color attach="background" args={["white"]} />
+              <Experience />
+            </ Canvas>
+          </div>
         </div>
   );
 };
