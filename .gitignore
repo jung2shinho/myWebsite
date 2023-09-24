@@ -6,6 +6,7 @@ api-key
 .env
 config.env
 images
+.blend
 
 # Compiled class file
 *.class
