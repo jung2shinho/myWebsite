@@ -59,6 +59,12 @@ img:hover {
     display:flex;
 }
 
+.threeD {
+    height: 40rem;
+    width: 100%;
+    background-color: red;
+}
+
 
 #portrait {
 }

@@ -7,8 +7,6 @@ import Contact from '../Pages/Contact';
 import Projects from '../Pages/Projects';
 import Resume from '../Pages/Resume';
 import Blog from '../Pages/Blog';
-
-import Redirect from '../Components/Redirect';
 import ML from '../Pages/ML';
 
 function Features () { 
@@ -22,7 +20,6 @@ function Features () {
           <Route path="/Resume" element={<Resume />} />
           <Route path="/ML" element={<ML />} />
           <Route path="/Blog" element={<Blog />} />
-          <Route path="/external" element={<Redirect />} />
       </Routes>
       </div>
   )

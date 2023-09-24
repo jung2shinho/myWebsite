@@ -51,7 +51,7 @@ export default function Footer() {
 					</ul>
 				</div>
 				<div className="subscribe">
-					<p>Sean Jung is an engineer in all levels. He brings his best in all his endeavors! Machine learning production.</p>
+					<p>Sean Jung is a core engineer. He brings his best in all his endeavors! Machine learning production.</p>
 					<h3> Subscribe to his latest email Newsletter! </h3>
 					<h3> Email Address </h3>
 					
