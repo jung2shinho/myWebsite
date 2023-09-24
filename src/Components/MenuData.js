@@ -5,8 +5,8 @@ import * as FaIcons from "react-icons/fa"
 export const MenuData = 
    [
       {
-         title: 'Home',
-         path: '/',
+         title: 'About',
+         path: '/About',
          icon: <AiIcons.AiFillHome />,
       },
       {
@@ -32,7 +32,7 @@ export const MenuData =
       },
       {
          title: 'Github',
-         path: 'https://github.com/jshinhoxp',
+         path: 'https://github.com/jung2shinho',
          icon: <AiIcons.AiOutlineGithub />,
          target: '_blank',
       },
