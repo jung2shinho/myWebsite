@@ -9,7 +9,7 @@ function About() {
         <div className ="box1">
           <div className="intro">
             <h1> ABOUT </h1>
-            <p> Hi there! My name is Shinho Jung. I am currently a graduate student at the University of Washington in Seattle, WA, majoring in Electrical Engineering and Data Science because I love all things TECH! From a young age, I have always been so fastinated by the complexity and ingenuity of our daily machines, and the world's ability to create and implement innovative solutions for society's problems. For me, I have always made it my mission to enhance the ever-evolving landscape of technology, thanks to my incessant curosity and drive for problem-solving.
+            <p> Hi there! My name is Shinho Jung. I am currently a graduate student at the University of Washington in Seattle, WA, majoring in Electrical Engineering and Data Science. Why? Because I love all things engineering and TECH! From a young age, I have always been fastinated with how the world works, usually breaking things to see their inner workings. This is has been my pursuit ever since, seeking to bring solutions to problems and make the world a better place one circuit at a time.
             </p>
           </div>
           <div className="images">
@@ -23,15 +23,15 @@ function About() {
             <img src={"/images/grad.png"} alt="grad" id="grad"/>
           </div>
           <div className="blah">
-            <p> My main academic focus at UW-Seattle is on power and distribution systems with emphasis on data science and machine learning. I believe our current electrical distribution grid holds many inefficiencies surrounding power consumption, which can be mitigated through better power system designs and software programming. This can have significant impact in lowering overall electrical waste and your electrical bill!</p>
+            <p> Currently, my main academic focus at UW-Seattle is on power and distribution systems with emphasis on data science and machine learning. I believe our current electrical distribution grid holds many inefficiencies surrounding power consumption, which can be mitigated through better power system designs and software programming. This can have significant impact in lowering overall electrical waste and your electrical bill!</p>
             <p> Other academic intersts include pratical applications of artificial intelligence and machine learning in our daily lives.Several side projects that I am working includes an home renovation cost estimator, a investment portfolio management program, and market trend predictor.</p>
           </div>
         </div>
         <div className="box3">
           
           <div className="pt">
-            <p>Lastly, I am also an avid fitness enthusiast. I ran two full marathons (so far!) and completed a 70.3 mi Half-Ironman distance triathlon. I have also competed in local olympic weightlifting competitions near New Orleans just for the fun of it. I also love working on furniture and home improvement projects, as long as my wife is ok with it. Many of my furnitures are with a mid-modern century style with a Scandinavian-Korean feel! </p>
-            <p> Thanks for taking the time to read my short bio! For more information about me, check out my other tabs on my website!
+            <p> More about me: I am also an avid fitness enthusiast. To this date, I ran two full marathons (so far!) and completed one 70.3 mi Half-Ironman distance triathlon. I have also competed in local olympic weightlifting competitions near New Orleans because lifting heavy weights and putting it down is always a great exercise! On my other free time, I love to work on building my own furniture and doing home improvement projects. If you're curious, many of my furniture projects are under American mid-modern century style influence with East Asian feel! </p>
+            <p> Thanks for taking the time to read my short bio! For more information about me, check out my other tabs on my website! As always, feel free contact me via email or LinkedIn!
             </p>
           </div>
           <div className="images">
