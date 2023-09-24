@@ -18,7 +18,7 @@ function Navbar() {
 
    return (
       <div className="navbar">
-         <Link to ="/About" className="site-title">
+         <Link to ="/" className="site-title">
                SEAN JUNG
          </Link>
          

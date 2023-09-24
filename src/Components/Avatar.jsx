@@ -6,36 +6,57 @@ Command: npx gltfjsx@6.1.4 public/models/myAvatar.glb
 import React, { useEffect, useRef} from 'react'
 import {useControls} from 'leva'
 import { useFrame } from '@react-three/fiber'
+import * as THREE from 'three';
 import { useFBX, useGLTF, useAnimations } from '@react-three/drei'
-import { Leva } from 'leva';
 
 
 export function Avatar(props) {
+  const {animation} = props;
 
-  const {headFollow} = useControls({ 
+  const {headFollow, cursorFollow} = useControls({ 
     headFollow: false,
+    cursorFollow: false,
   });
 
   const group = useRef();
   const { nodes, materials } = useGLTF('models/Avatar.glb');
 
+  // Create animation variables
   const { animations: typingAnimation } = useFBX("animations/Typing.fbx");
-
+  const { animations: standingAnimation } = useFBX("animations/Standing Idle.fbx");
+  const { animations: fallingAnimation } = useFBX("animations/Falling Idle.fbx");
+  
   // Rename the animation name within array
   typingAnimation[0].name = "Typing";
+  standingAnimation[0].name = "Standing";
+  fallingAnimation[0].name = "Falling";
+
   // Takes an array of animation clip
-  const { actions } = useAnimations( typingAnimation, group ); 
+  const { actions } = useAnimations(
+    [typingAnimation[0],
+    standingAnimation[0],
+    fallingAnimation[0]], 
+    group 
+  ); 
 
   // Keeps a bone in same state with camera
   useFrame((state) => {
     if(headFollow) { // if clicked true 
     group.current.getObjectByName("Head").lookAt(state.camera.position);
     }
+    if(cursorFollow) {
+      const target = new THREE.Vector3(state.mouse.x, state.mouse.y, 1);
+      group.current.getObjectByName("Spine").lookAt(target);
+    }
   });
 
+  // 
   useEffect(() => {
-    actions["Typing"].reset().play();
-  }, []);
+    actions[animation].reset().fadeIn(0.5).play();
+    return () => {
+      actions[animation].reset().fadeIn(0.5).stop();
+    };
+  }, [animation]);
 
   return (
     <group {...props} ref={group} dispose={null}>
