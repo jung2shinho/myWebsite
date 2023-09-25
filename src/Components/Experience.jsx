@@ -8,7 +8,7 @@ export const Experience = () => {
     <>
       <OrbitControls />
 
-      
+
       <ambientLight intensity={1} />
       <group position-y={-1}>
          <ContactShadows

@@ -4,21 +4,38 @@ import "../css/Pages.css";
 export default function Projects() {
     return (
 		<div className="pages">
-			<h1> Coding Projects </h1>
+			<h1> Personal Coding Projects </h1>
 			<ul>
-				<li> <h2> Real Estate Estimator App</h2>
+				<li> <h2> Zillow | Home Price Estimator App</h2>
 				 </li>
 				 	<a href="https://github.com/jung2shinho/ML_HomePrices">
-						github repo</a>/   
+						github repo</a>   
 					<a href="/">app</a>
-					<p> Estimates the property value and potential renovation costs through visual input (photos) of property, general market construction costs, and various  public data. </p>
-				<li> <h2> Stock Market Estimator App </h2></li>
-					<p> An automated Trading Bot that uses a linear regression model that utilizes basic algorithms to predict future stock market movements and trends. </p>
-				<li> <h2> Robinhood Tax Estimator App </h2> </li>
-					<p> Calculates current and projected dividends as well as stock earnings in assisting user on tracking income for accurately estimating tax liability. </p>
-				<li> <h2> Number Recognition </h2> </li>
-					<p> Utilizes multi-layered neural network to recognize numbers upon freehand input. </p>
-				<li> <h2> <a href="/"> This Personal Website </a>  </h2> </li>
+					<p> Estimates the property value based on historical Zillow dataset (e.g square footage, lot size, # of rooms, bathrooms). Structured under Django framework with AWS Elastic Beanstalk to support its backend. Utilizes sklearn's regression models. </p>
+				<li> <h2> IMAGE CLASSIFICATION | COMPUTER VISION | DEEP LEARNING </h2> </li> 
+					<a href="https://github.com/jung2shinho/ML_HomePrices">
+						github repo</a>   
+					<a href="/">app</a>
+					<p> A multi-layered neural network model using PyTorch library to accurately detect and label 60,000 images within the CIFAR-10 dataset, reaching a +70% test accuracy within 9 epoch training cycles. </p>
+				<li> <h2> LOAN VIABILITY | LENDING CLUB | MACHINE LEARNING </h2> </li>
+					<a href="https://github.com/jung2shinho/ML_HomePrices">
+						github repo</a>   
+					<a href="/">app</a>
+				 	<p> A decision tree classifier using scikit-learn to determine bank approvals for 1412 Lending Club loan applications, based an individual’s loan amount, credit score, delinquency history, and 7 other features. </p>
+				<li> <h2> FOOD PRODUCT REVIEWS | AMAZON | MACHINE LEARNING </h2> </li>
+					<a href="https://github.com/jung2shinho/ML_HomePrices">
+						github repo</a>   
+					<a href="/">app</a>
+					<p> Created a logistics regression model using scikit-learn and seaborn to quantify and categorize the emotional sentiment of 1251 Amazon product reviews for evaluating the success of a given Amazon product. </p>
+				<li> <h2> AUTOMATED PET FOOD DISPENSER | FREERTOS | EMBEDDED SYSTEMS </h2> </li>
+					<a href="https://github.com/jung2shinho/ML_HomePrices">
+						github repo</a>   
+					<a href="/">app</a>
+					<p> Created a 3D design and product development for an Automated Pet Food Dispenser that resulted in a functional prototype with RFID sensors, Arduino microcontrollers, and UI – programmed using FreeRTOS in C language. </p>
+				<li> <h2> This Personal Website </h2> </li>
+					<a href="https://github.com/jung2shinho/ML_HomePrices">
+						github repo</a>   
+					<a href="/">app</a>
 					<p> Uses HTML / CSS / Javascript to consolidates work of a true professional in one single-page application. Made with React Framework. Hosted via Google Domain. </p>
 			</ul>
 		</div>

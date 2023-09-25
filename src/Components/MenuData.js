@@ -19,11 +19,11 @@ export const MenuData =
          path: '/Resume',
          icon: <AiIcons.AiOutlineProfile />,
       },
-      {
-         title: 'ML/AI',
-         path: '/ML',
-         icon: <AiIcons.AiOutlineRobot/>,
-      },
+      // {
+      //    title: 'ML/AI',
+      //    path: '/ML',
+      //    icon: <AiIcons.AiOutlineRobot/>,
+      // },
       {
          title: 'LinkedIn',
          path: 'https://linkedin.com/in/jungshinho',

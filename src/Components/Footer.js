@@ -37,10 +37,10 @@ export default function Footer() {
 						<li><AiIcons.AiOutlineMail />
 							Email </li>
 						<li><AiIcons.AiOutlineFacebook />
-							<a href="https://www.facebook.com/jshinhoxp">
+							<a href="https://www.facebook.com/jung2shinho">
 							Facebook </a> </li>
 						<li><AiIcons.AiOutlineInstagram />
-							<a href="https://www.instagram.com/jshinhoxp">
+							<a href="https://www.instagram.com/jungehof">
 							Instagram </a> </li>
 						<li><AiIcons.AiOutlineTwitter />
 							<a href="https://www.twitter.com/jshinhoxp">
@@ -51,8 +51,8 @@ export default function Footer() {
 					</ul>
 				</div>
 				<div className="subscribe">
-					<p>Sean Jung is a core engineer. He brings his best in all his endeavors! Machine learning production.</p>
-					<h3> Subscribe to his latest email Newsletter! </h3>
+					<p> Thank you for visiting my portfolio website!</p>
+					<h3> Subscribe to my email newsletter that has the latest updates to my projects and journey! </h3>
 					<h3> Email Address </h3>
 					
 					<input type="text" className="email-list" 
