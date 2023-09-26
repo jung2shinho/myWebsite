@@ -4,19 +4,10 @@ Command: npx gltfjsx@6.1.4 public/models/myAvatar.glb
 */
 
 import React, { useEffect, useRef} from 'react'
-import {useControls} from 'leva'
-import { useFrame } from '@react-three/fiber'
-import * as THREE from 'three';
 import { useFBX, useGLTF, useAnimations } from '@react-three/drei'
 
 export function Avatar(props) {
   const {animation} = props;
-
-  // const {headFollow, cursorFollow} = useControls({ 
-  //   headFollow: false,
-  //   cursorFollow: false,
-  // });
-
   const group = useRef();
   const { nodes, materials } = useGLTF('models/Avatar.glb');
 
@@ -38,18 +29,6 @@ export function Avatar(props) {
     group 
   ); 
 
-  // Keeps a bone in same state with camera
-  useFrame((state) => {
-    // if(headFollow) { // if clicked true 
-    // group.current.getObjectByName("Head").lookAt(state.camera.position);
-    // }
-    // if(cursorFollow) {
-    //   const target = new THREE.Vector3(state.mouse.x, state.mouse.y, 1);
-    //   group.current.getObjectByName("Neck").lookAt(target);
-    // }
-  });
-
-  // 
   useEffect(() => {
     actions[animation].reset().fadeIn(0.5).play();
     return () => {
