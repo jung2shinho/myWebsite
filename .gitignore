@@ -7,8 +7,7 @@ api-key
 config.env
 images
 .blend
-.glb
-.fbx
+
 workingFiles
 
 # Compiled class file
