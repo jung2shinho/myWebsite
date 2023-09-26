@@ -2,20 +2,16 @@ import React from "react";
 import "../css/Footer.css"
 import * as AiIcons from "react-icons/ai"
 import axios from "axios";
-import Popup from "./Popup";
 import { useState } from "react";
 
 export default function Footer() {
-
 	// React Hooks for subscribing email and popup
 	const [email, setEmail] = useState("")
 	const [isOpen, setIsOpen] = useState(false)
-
 	// Reflects input into the hook state
 	const handleChange = e => {
 		setEmail(e.target.value)
 	}
-
 	// onClick posts data onto database 
 	const subscribeEmail = () => {
 		axios.post('http://localhost:5000/users',{email})

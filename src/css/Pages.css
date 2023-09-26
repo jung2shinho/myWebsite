@@ -10,9 +10,13 @@
 .pages h1 {
     text-align: center;
 }
+.pages h2 {
+    text-align: left;
+}
 
 .pages p {
-    font-size: 18px;
+    font-size: 14px;
+    text-align: left;
 }
 
 .pages ul {
@@ -20,8 +24,6 @@
     padding: 0;
     margin: 0;
 }
-
-.pages 
 
 img {
     padding: 1rem;
@@ -81,7 +83,7 @@ img:hover {
     /* max-width: 10rem; */
 }
 
-@media (max-width: 800px) {
+@media (max-width: 725px) {
     .box1 {
         flex-direction: column-reverse;
         align-items: center;
@@ -99,6 +101,15 @@ img:hover {
         align-items: center;
     }
     .pages {
-        align-items: center;
+        text-align: center;
+    }
+    .pages h2 {
+        text-align: center;
+    }
+    .pages p {
+        text-align: center;
+    }
+    .pages a {
+        text-align: center;
     }
 }

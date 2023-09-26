@@ -36,14 +36,14 @@ export const MenuData =
          icon: <AiIcons.AiOutlineGithub />,
          target: '_blank',
       },
-      {
-         title: 'Blog',
-         path: '/Blog',
-         icon: <FaIcons.FaBlogger />,
-      },
-      {
-         title: 'Support',
-         path: '/Contact',
-         icon: <FaIcons.FaHandsHelping />,
-      },
+      // {
+      //    title: 'Blog',
+      //    path: '/Blog',
+      //    icon: <FaIcons.FaBlogger />,
+      // },
+      // {
+      //    title: 'Support',
+      //    path: '/Contact',
+      //    icon: <FaIcons.FaHandsHelping />,
+      // },
    ]

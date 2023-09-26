@@ -6,8 +6,8 @@ import Home from '../Pages/Home';
 import Contact from '../Pages/Contact';
 import Projects from '../Pages/Projects';
 import Resume from '../Pages/Resume';
-import Blog from '../Pages/Blog';
-import ML from '../Pages/ML';
+// import Blog from '../Pages/Blog';
+// import ML from '../Pages/ML';
 
 function Features () { 
   return (
@@ -18,8 +18,8 @@ function Features () {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Resume" element={<Resume />} />
-          <Route path="/ML" element={<ML />} />
-          <Route path="/Blog" element={<Blog />} />
+          {/* <Route path="/ML" element={<ML />} /> */}
+          {/* <Route path="/Blog" element={<Blog />} /> */}
       </Routes>
       </div>
   )
