@@ -23,15 +23,27 @@ function Navbar() {
          </Link>
          
          { MenuData.map( (item, index) => {
-            return (
-               <li key={index} className="nav-text">
-                  <a href={item.path}>
-                     {item.icon}
-                     <span> {item.title} </span>
-                  </a>
-               </li>)
-            })
-         }
+               if (item.target === '_blank') {
+                  return (
+                     <li key={index} className="nav-text">
+                        <a href ={item.path}>
+                           {item.icon}
+                           <span> {item.title} </span>
+                        </a>
+                     </li>
+                  )
+               } else {
+                  return (
+                     <li key={index} className="nav-text">
+                        <Link to ={item.path}>
+                           {item.icon}
+                           <span> {item.title} </span>
+                        </Link>
+                     </li>
+                  )
+               }
+             })
+            }
          <RxIcons.RxHamburgerMenu onClick={menuClick} className="burger" />
          <SidebarMenu status={status} onClick={menuClick} />
       </div>

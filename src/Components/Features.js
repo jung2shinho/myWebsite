@@ -6,20 +6,20 @@ import Home from '../Pages/Home';
 import Contact from '../Pages/Contact';
 import Projects from '../Pages/Projects';
 import Resume from '../Pages/Resume';
-// import Blog from '../Pages/Blog';
-// import ML from '../Pages/ML';
+import NotFound from '../Pages/NotFound';
+
 
 function Features () { 
   return (
     <div>
-    <Routes>
+      <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Resume" element={<Resume />} />
-          {/* <Route path="/ML" element={<ML />} /> */}
-          {/* <Route path="/Blog" element={<Blog />} /> */}
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
       </div>
   )
