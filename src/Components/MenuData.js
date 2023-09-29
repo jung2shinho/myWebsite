@@ -19,11 +19,6 @@ export const MenuData =
          path: '/Resume',
          icon: <AiIcons.AiOutlineProfile />,
       },
-      // {
-      //    title: 'ML/AI',
-      //    path: '/ML',
-      //    icon: <AiIcons.AiOutlineRobot/>,
-      // },
       {
          title: 'LinkedIn',
          path: 'https://linkedin.com/in/jungshinho',
@@ -35,15 +30,5 @@ export const MenuData =
          path: 'https://github.com/jung2shinho',
          icon: <AiIcons.AiOutlineGithub />,
          target: '_blank',
-      },
-      // {
-      //    title: 'Blog',
-      //    path: '/Blog',
-      //    icon: <FaIcons.FaBlogger />,
-      // },
-      // {
-      //    title: 'Support',
-      //    path: '/Contact',
-      //    icon: <FaIcons.FaHandsHelping />,
-      // },
+      }
    ]
