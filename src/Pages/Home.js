@@ -7,7 +7,8 @@ export default function Home () {
     return (
         <div className="pages">
           <div className="threeD">
-            <Canvas shadows camera={{ position: [1, 1, 5], fov: 35 }}>
+            <Canvas shadows
+                camera={{ position: [1, 1, 5], fov: 35, near: 0.1 }}>
               <color attach="background" args={["white"]} />
               <Experience />
             </ Canvas>
