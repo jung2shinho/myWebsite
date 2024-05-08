@@ -7,6 +7,8 @@
    padding: 1rem;
    display: block;
    border-left: 1px solid black;
+   z-index: 9999; /* Set a high z-index to ensure it appears on top */
+  /* Other styles for your component */
 }
 
 .mobile-menu li {
