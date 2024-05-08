@@ -19,13 +19,13 @@ export const Experience = () => {
             />
       
       {/* Avatar and Office Components below */}
-         <Avatar animation={animation} />
-         <Office position-x={-1.9} position-z={-.8} position-y={-.1}/>
-         { animation === "Typing" && (
-            <mesh scale={[0.8,0.5,0.8]} position-y={0.25}>
+         <Avatar animation={animation}position-y={-50} />
+         <Office scale={90} position-x={-170} position-y={-50} position-z={-67}/>
+         {/* { animation === "Typing" && (
+            <mesh scale={[1,1,1]} position-y={0}>
             </mesh>
-         )}         
-         <mesh scale={5} rotation-x={-Math.PI*0.5} position-y={-0.001}>
+         )}          */}
+         <mesh scale={500} rotation-x={-Math.PI*0.5} position-y={-50}>
             <planeGeometry />
             <meshStandardMaterial color="white" />
          </mesh>

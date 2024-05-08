@@ -31,7 +31,7 @@ function About() {
         </div>
         <div className="box3">
           <div>
-            <p> Other Interests: I am also an avid fitness person. To this date, I have ran two full marathons and completed one 70.3 mi Half-Ironman distance triathlon (so far!). I have also competed in local olympic weightlifting competitions near New Orleans because lifting heavy things and putting them down are always great exercises! I also love to work on building my own furniture plus home improvement projects. If you're curious, you can check out my home furniture page here (TBD)! </p>
+            <p> Other Interests: I am also an avid fitness person. To this date, I ran three full marathons and completed one 70.3 mi Half-Ironman distance triathlon (so far!). I have also competed in local olympic weightlifting competitions near New Orleans because lifting heavy things and putting them down are always great exercises! I also love to work on building my own furniture plus home improvement projects. If you're curious, you can check out my home furniture page here (TBD)! </p>
             <p> Thanks for taking the interest to read my short bio! For more information, check out my other tabs on my website! As always, feel free contact me via email, phone, or LinkedIn!
             </p>
           </div>
