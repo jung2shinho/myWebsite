@@ -31,10 +31,10 @@ export const MenuData =
          icon: <AiIcons.AiOutlineGithub />,
          target: '_blank',
       },
-      {   
-         title: 'Donate',
-         path: 'https://donate.stripe.com/test_dR629L0rp67S8es8ww',
-         icon: <AiIcons.AiOutlineDollar />,
-         target: '_blank'
-      }
+      // {   
+      //    title: 'Donate',
+      //    path: 'https://donate.stripe.com/test_dR629L0rp67S8es8ww',
+      //    icon: <AiIcons.AiOutlineDollar />,
+      //    target: '_blank'
+      // }
    ]
