@@ -32,9 +32,6 @@ export default function Footer() {
 					<ul className="contact-icons">
 						<li><AiIcons.AiOutlineMail />
 							Email </li>
-						<li><AiIcons.AiOutlineFacebook />
-							<a href="https://www.facebook.com/jung2shinho">
-							Facebook </a> </li>
 						<li><AiIcons.AiOutlineInstagram />
 							<a href="https://www.instagram.com/jungehof">
 							Instagram </a> </li>
