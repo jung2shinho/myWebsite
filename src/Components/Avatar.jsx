@@ -11,7 +11,7 @@ export function Avatar(props) {
   const group = useRef();
   const { nodes, materials } = useGLTF('models/Avatar.glb');
 
-  // Create animation variables
+  // Create animation variables - load lazily
   const { animations: typingAnimation } = useFBX("animations/Typing_2.fbx");
   const { animations: standingAnimation } = useFBX("animations/Standing Idle.fbx");
   const { animations: fallingAnimation } = useFBX("animations/Falling Idle.fbx");
