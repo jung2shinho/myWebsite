@@ -7,6 +7,27 @@ export default function Projects() {
 			<h1> Coding Projects </h1>
 			<br />
 			<ul>
+
+				<li> <h2> SUPPLY CHAIN DETECTION -  AI & DATA MODERNIZATION </h2>
+				</li>
+				 	<a href="#"> github repo</a>
+					<p> Developed and deployed an enterprise application on JWICS (via AWS EKS) to detect illegal supply chain activities on behalf of the U.S Government, supporting over +2M data analysts in counter-drug operations. Developed a Natural Language Processing (NLP) pipeline for entity recognition and relationship resolution to construct a 42M+ entity knowledge graph on Neo4j, derived from +12M classified reports. Utilized a HDBSCAN clustering algorithm to optimize query retrieval on a Milvus vector database, increasing speed by 31% while maintaining accuracy, availability and reliability for over +2M users. </p>
+
+
+				<li> <h2> GOOGLE's GenAI FOR ENTERPRISE (GENIE) - GraphRAG </h2>
+				</li>
+				 	<a href="#"> github repo</a> 
+					<p> Deployed Google's GenAI for Enterprise (GENIE) platform using Kubernetes clusters for a public educational client, enabling the use of customized LLMs via LangGraph with retrieval-augmented generation (RAG). Developed a data pipeline for extracting knowledge graphs from unstructured data sources via Vertex AI, creating a comprehensive personalized learning system using Neo4j and Google Cloud Storage instances. </p>
+				
+				<li> <h2> SPACE WEATHER FORECASTING & HELIOANALYTICS | NASA JET PROPULSION LABORATORY </h2>
+				</li>
+				 	<a href="https://github.com/jung2shinho/NASA_JPL_UW_ENGINE_24">
+						github repo</a>/ 
+					<a href="https://awesomeapp.onrender.com/">app</a>
+					<p> In collaboration with NASA Jet Propulsion Laboratory (JPL) and U.S Geological Survey (USGS), a comprehensive data pipeline was constructed to aggregate and analyze solar data from three major, public datasets (i.e SuperMAG, OMNIWeb, NERC). Combining and restructuring this data into several analysis-ready schema facilitated subsequent extreme value analysis, network analysis, and machine learning models for nowcasting and forecasting magnetic perturbation predictions. </p>
+					<p> <i>2nd Place in <a href="https://www.ece.uw.edu/entrepreneurship/entrepreneurial-capstone/"> UW ENGINE Capstone Project Competition! </a></i></p>
+
+
 				<li> <h2> SPACE WEATHER FORECASTING & HELIOANALYTICS | NASA JET PROPULSION LABORATORY </h2>
 				</li>
 				 	<a href="https://github.com/jung2shinho/NASA_JPL_UW_ENGINE_24">

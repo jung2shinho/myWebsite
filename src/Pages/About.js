@@ -10,7 +10,7 @@ function About() {
         <div className ="box1">
           <div className="intro">
             <h1> ABOUT </h1>
-            <p> Hi there! My name is Sean Jung. I am a recent graduate from the University of Washington in Seattle, WA, obtaining a M.S in Electrical Engineering with Data Science and AI focus. Why? Because I love all things engineering and TECH! </p>
+            <p> Hi there! My name is Sean Jung, and I'm a Full-Stack Software Engineer and Data Scientist at Deloitte, where I develop cutting-edge AI software for our government clients. What drives me? A deep passion for all things engineering and tech! </p>
             <p>From a young age, I have always been fastinated about how things work. Physics and math are my favorite subjects and continue to be, especially when projects involves breaking components apart. I am constantly amazed by the ingenuity and creativity of today's inventions. That is why I have pursued the field of engineering and software, helping to bring solutions to our hardest problems and continue to contribute to society.
             </p>
           </div>
@@ -25,7 +25,7 @@ function About() {
             <img src={path + "/images/grad.png"} alt="grad" id="grad"/>
           </div>
           <div>
-            <p> Currently, at Google, I am involved in deploying GenAI for Enterprise (GENIE) platform for a public education client, enabling the use of customized LLMs with retrieval augmented generation (RAG) to create effective knowledge graphs for a personalized learning system. In the past, I've also worked on machine learning applications concerning utility infrastructure and power systems with NASA Jet Propulsion Laboratory, seeking to predict Coronal Mass Ejections and space weather and how it can affect our power grid systems. </p>
+            <p> Currently, at Deloitte, I'm developing a full-scale, enterprise application via a Kubernetes cluster, enabling natural language processing and GenAI tools within the national security space. Previously, I was at Google deploying their GenAI for Enterprise (GENIE) platform for a public education client, enabling the use of customized LLMs with retrieval augmented generation (RAG) to create effective knowledge graphs for a personalized learning system. In the past, I've also worked on machine learning applications concerning utility infrastructure and power systems with NASA Jet Propulsion Laboratory, seeking to predict Coronal Mass Ejections and space weather and how it can affect our power grid systems. </p>
             <p> My other academic interests include psychology and financial markets, the impact of smart home integration (i.e Internet of Things (IoT)), and when the singularity will happen. Several projects includes my award-winning UW ENGINE Capstone project with NASA JPL, a semantic segmentation software for outlining aerial images, an automated investment portfolio management program, and a market trend predictor. (See <Link to="/Projects"> projects</Link> section!) </p>
           </div>
         </div>
