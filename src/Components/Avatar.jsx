@@ -30,11 +30,15 @@ export function Avatar(props) {
   ); 
 
   useEffect(() => {
-    actions[animation].reset().fadeIn(0.5).play();
+    if (actions && actions[animation]) {
+      actions[animation].reset().fadeIn(0.5).play();
+    }
     return () => {
-      actions[animation].reset().fadeIn(0.5).stop();
+      if (actions && actions[animation]) {
+        actions[animation].reset().fadeOut(0.5).stop();
+      }
     };
-  }, [animation]);
+  }, [actions, animation]);
 
   return (
     <group {...props} ref={group} dispose={null}>

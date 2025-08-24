@@ -63,7 +63,7 @@ export default function Footer() {
 			</div>
 			<div className="container2"> 
 				<div className="rights">
-					| © 2023 Sean Jung LLC | All Rights Reserved | Privacy | Terms & Conditions |
+					| © 2025 Sean Jung LLC | All Rights Reserved | Privacy | Terms & Conditions |
 				</div>
 			</div>
 		</div>
