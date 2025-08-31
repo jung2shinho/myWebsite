@@ -27,15 +27,6 @@ export default function Projects() {
 					<p> In collaboration with NASA Jet Propulsion Laboratory (JPL) and U.S Geological Survey (USGS), a comprehensive data pipeline was constructed to aggregate and analyze solar data from three major, public datasets (i.e SuperMAG, OMNIWeb, NERC). Combining and restructuring this data into several analysis-ready schema facilitated subsequent extreme value analysis, network analysis, and machine learning models for nowcasting and forecasting magnetic perturbation predictions. </p>
 					<p> <i>2nd Place in <a href="https://www.ece.uw.edu/entrepreneurship/entrepreneurial-capstone/"> UW ENGINE Capstone Project Competition! </a></i></p>
 
-
-				<li> <h2> SPACE WEATHER FORECASTING & HELIOANALYTICS | NASA JET PROPULSION LABORATORY </h2>
-				</li>
-				 	<a href="https://github.com/jung2shinho/NASA_JPL_UW_ENGINE_24">
-						github repo</a>/ 
-					<a href="https://awesomeapp.onrender.com/">app</a>
-					<p> In collaboration with NASA Jet Propulsion Laboratory (JPL) and U.S Geological Survey (USGS), a comprehensive data pipeline was constructed to aggregate and analyze solar data from three major, public datasets (i.e SuperMAG, OMNIWeb, NERC). Combining and restructuring this data into several analysis-ready schema facilitated subsequent extreme value analysis, network analysis, and machine learning models for nowcasting and forecasting magnetic perturbation predictions. </p>
-					<p> <i>2nd Place in <a href="https://www.ece.uw.edu/entrepreneurship/entrepreneurial-capstone/"> UW ENGINE Capstone Project Competition! </a></i></p>
-
 				<li> <h2> SEMANTIC SEGMENTATION |INT. SOCIETY FOR PHOTOGRAMMETRY AND REMOTE SENSING </h2> </li>
 					<a href="https://github.com/jung2shinho/NNModels">
 						github repo</a> 
