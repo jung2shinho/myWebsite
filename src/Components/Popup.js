@@ -1,11 +1,12 @@
 import React from 'react'
 import "../css/Popup.css";
 
-const Popup = (props) => {
+const Popup = ({ content, onClose }) => {
   return (
     <div className="popup-box">
       <div className="popup">
-         props.content
+        <span className="popup-close" onClick={onClose}>&times;</span>
+        {content}
       </div>
     </div>
   )

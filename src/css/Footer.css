@@ -74,6 +74,12 @@
   border: 1px solid black;
 }
 
+.error-msg {
+  color: #d32f2f;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
 @media (max-width: 500px) {
   .container1 {
     flex-direction: column;
