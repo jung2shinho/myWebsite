@@ -5,6 +5,7 @@ package-lock.json
 build
 api-key
 .env
+.DS_Store
 config.env
 images
 .blend
